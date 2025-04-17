@@ -1,5 +1,5 @@
 # GLY6932_Finalproject
-# LANDSLIDE SUSCEPTIBILITY USING SUPPORT VECTOR MACHINE AND GENERALIZED LINEAR MODEL
+# COMPARISON OF SUPPORT VECTOR MACHINE(SVM) AND GENERALIZED LINEAR MODEL(GLM) FOR LANDSLIDE SUSCEPTIBILITY
 
 This project seeks to compare the accuracy of SVM and GLM for predicting landslide susceptibility at Southern Ecuador. The accuracy is measured by the AUROC metric.
 Area Under the Receiver Operator Characteristic Curve (AUROC) is good way to assess binomial model fit
