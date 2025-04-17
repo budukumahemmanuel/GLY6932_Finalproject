@@ -52,9 +52,9 @@ The input file `lsl.csv` must contain the following columns:
 svm_model.joblib: Trained best SVM model for future prediction
 
 Terminal output showing:
-Best AUROC from tuning
-Best hyperparameters
-Mean AUROC from spatial cross-validation
+Best AUROC from tuning: 0.8444081632653061
+Best hyperparameters: gamma = 0.25 and C = 1
+Mean AUROC from spatial cross-validation: 0.75
 
 
 ## Landslide Susceptibility Modeling using GLM in Python
@@ -88,17 +88,17 @@ X and Y coordinates and lslpts which is TRUE or FALSE for landslide occurrence
 
 ##  Output Products
 1. `susceptibility_map_with_basemap.png` — Point-based susceptibility map on a basemap
-2. `susceptibility_map.tif` — Full raster of predicted landslide probability
-3. `susceptibility_map_clipped.tif` — Clipped raster using `study_mask.shp`
+2. `susceptibility_map_clipped.tif` — Clipped raster using `study_mask.shp`
+3. Mean AUROC from spatial cross-alidation is 0.78
 
 ## Output Figures
-
-
+The susceptibility maps are uploaded.
+The first susceptibility map (Susceptibility map on basemap.png) is overlaid on a basemap
+The second susceptibility map(Clipped Susceptibility Map using studymask.png) is the same as the first but clipped with the study_mask.shp which shows the longitudes and latitudes of the predicted points.
 
 ##  Requirements
 
 Install dependencies using `pip`:
-
 pip install pandas numpy matplotlib rasterio geopandas scikit-learn contextily scipy
 
 
