@@ -105,3 +105,7 @@ pip install pandas numpy matplotlib rasterio geopandas scikit-learn contextily s
 ##  Reference
 Muenchow, J., Brenning, A., & Richter, M. (2012). Geomorphometric characterization of landslide-prone terrain.
 
+##  COLAB LINK
+https://colab.research.google.com/drive/1h-jJGvl93yJsCXluw_PgrLfaEKZimsOm?usp=sharing
+
+
